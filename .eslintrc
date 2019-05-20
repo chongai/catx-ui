@@ -1,0 +1,24 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true
+  },
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["import", "prettier"],
+  "globals": {
+    "__DEV__": false
+  },
+  "rules": {
+    "comma-dangle": "off",
+    "semi": [2, "never"],
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true
+      },
+      {
+        "usePrettierrc": true
+      }
+    ]
+  }
+}
